@@ -12,5 +12,6 @@ def greedyKnapsack(items, wtMax):
     return(round(profit,2)), chosen
    
 # Driver code 
-items = [('A', 200, 40), ('B', 120, 20), ('C', 100, 10), ('D', 100, 50)]
-print(greedyKnapsack(items, 60))
+items = [('A', 2.2, 170), ('B', 8, 1500), ('C', 22, 1500), ('D', 0.26, 15), ('E', 0.4, 20), ('F', 1, 200)]
+maxCapacity = 2000
+print(greedyKnapsack(items, maxCapacity))
